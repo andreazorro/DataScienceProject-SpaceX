@@ -1,0 +1,42 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - python=3.10 
+  - pandas
+  - jupyter 
+  - seaborn 
+  - scikit-learn 
+  - imbalanced-learn
+  - keras 
+  - tensorflow
+  - matplotlib
+  - numpy
+  - scipy
+  - conda-forge::pydotplus
+  - conda-forge::python-graphviz
+  - conda-forge::statsmodels
+  - pip
+  - pip:
+    - requests
+    - nba_api
+    - html5lib
+    - beautifulsoup4
+    - lxml
+    - openpyxl
+    - yfinance==0.2.4
+    - db-sqlite3
+    - ipython-sql
+    - ipywidgets
+    - tqdm
+    - js2py
+    - wordcloud
+    - pywaffle
+    - folium
+    - plotly
+    - packaging
+    - dash
+    - httpx==0.20
+    - snapml
+    - sqlalchemy
+    
